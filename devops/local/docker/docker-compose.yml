@@ -235,7 +235,7 @@ services:
     image: systementry-9007
     container_name: systementry-9007
     ports: 
-      - 8010:8010
+      - 8013:8013
     env_file: .env
     depends_on:
       - mongo
